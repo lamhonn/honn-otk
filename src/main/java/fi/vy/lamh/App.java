@@ -1,4 +1,4 @@
-package fi.vamk.studentid;
+package fi.vy.lamh;
 
 /**
  * Hello world!

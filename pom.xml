@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>fi.vamk.studentid</groupId>
+  <groupId>fi.vy.lamh</groupId>
   <artifactId>projectname</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -38,7 +38,7 @@
         <configuration>
             <archive>
                 <manifest>
-                    <mainClass>fi.vamk.studentid.App</mainClass>
+                    <mainClass>fi.vy.lamh.App</mainClass>
                 </manifest>
             </archive>
             <descriptorRefs>
@@ -51,7 +51,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>1.5.0</version>
             <configuration>
-                <mainClass>fi.vamk.studentid.App</mainClass>
+                <mainClass>fi.vy.lamh.App</mainClass>
             </configuration>
         </plugin>
     </plugins>  
