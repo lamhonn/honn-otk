@@ -1,4 +1,4 @@
-<h3>Simple Maven template</h3>
+<h3>Honn</h3>
 
 mvn test
 
