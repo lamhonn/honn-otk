@@ -44,8 +44,8 @@ public class AppTest {
     public void testDiv() {
         assertEquals(Double.valueOf(1.33), div(new Double(4), new Double(3)), .2);
         assertEquals(Double.valueOf(33), div(new Double(99), new Double(3)), .2);
-        //assertEquals(Double.valueOf(null), div(new Double(null), new Double(3)), .2);
-        //assertEquals(Double.valueOf(null), div(new Double(3), new Double(null)), .2);
-        //assertEquals(Double.valueOf(null), div(new Double(3), new Double(0)), .2);
+        assertEquals(null, div(null, new Double(3)));
+        assertEquals(null, div(new Double(3), null));
+        assertEquals(null, div(new Double(3), new Double(0)));
     }
 }
